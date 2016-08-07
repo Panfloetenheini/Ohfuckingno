@@ -113,6 +113,8 @@ class Field {
                 } else if (y-i>0) {
                     neighbors++;
                 }
+            if (!up && !down && !left && !right)
+                return neighbors;
         }
         return neighbors;
     }
