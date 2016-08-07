@@ -90,7 +90,7 @@ class Field {
         boolean right=true,left=true,up=true,down=true;
         for (int i=1;i<=res;i++) { //x nach rechts
             if (right)
-                if (x+i<=res && get(x+i,y)==Ohfuckingno.RED) {
+                if (x+i<=res && get(x+i,y)==Ohfuckingno.RED) { //da feld voll ist wenn geprüft wird, kann man leere felder ignorieren
                     right = false;
                 } else if (x+i<=res ) {
                     neighbors++;
