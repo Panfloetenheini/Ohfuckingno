@@ -5,12 +5,12 @@ import static java.lang.System.exit;
 /**
  * Created by Roman on 07.07.2016.
  */
-public class Ohfuckingno {
+public class OhNoClone {
     public static final int EMTPY = -1;
     public static final int RED = 0;
     public static final int BLUE = -2;
     Field f;
-    public Ohfuckingno (String[] input) {
+    public OhNoClone (String[] input) {
         f = new Field(5);
         f.parseUsermapString(input);
         init();
@@ -33,7 +33,7 @@ public class Ohfuckingno {
                 "0,1,0,0,0",
                 "0,0,0,0,0",
                 "0,0,0,0,0"};
-        Ohfuckingno o = new Ohfuckingno(input);
+        OhNoClone o = new OhNoClone(input);
     }
 
     private void init() {
