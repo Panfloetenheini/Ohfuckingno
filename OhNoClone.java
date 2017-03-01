@@ -2,7 +2,7 @@ import java.awt.*;
 
 import static java.lang.System.exit;
 
-/**
+/***
  * Created by Roman on 07.07.2016.
  */
 public class OhNoClone {
